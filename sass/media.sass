@@ -1,0 +1,316 @@
+@media (max-width: 980px) 
+    .container
+        max-width: 767px
+    .social-media > .container
+        display: flex
+        align-items: center
+    .social-media__icons
+        padding-bottom: 0
+        &_item
+            // font-size: 30px
+            & + &
+                padding-left: 25px
+    .tabs-block
+        padding-top: 115px
+        &__tabs_item
+            padding: 40px 35px
+            white-space: nowrap
+        &__text_items
+            padding-left: 65px
+        &__button
+            padding-top: 45px
+        &__image
+            margin-left: 40px
+            max-width: 300px
+            display: flex
+            align-items: center
+            & img
+                width: 100%
+    .text_main_text
+        padding-top: 35px
+    .container
+        &__grid_col
+            display: flex
+            align-items: center
+        &__image
+            width: 100%
+    .sub-list
+        &__image_block
+            min-width: 350px
+        &__information
+            padding-right: 0
+            padding-left: 35px
+            &_text
+                padding-bottom: 25px
+    .information_item_block
+        padding-left: 15px
+    .awesome-block__slider
+        padding-top: 60px
+    .pricing-block
+        padding-top: 95px
+        &__slider
+            padding-top: 50px
+    .list_item + .list_item
+        padding-top: 23px
+    .contact-block
+        padding-top: 80px
+        &__form
+            padding-top: 30px
+
+@media (max-width: 767px)
+    .container
+        max-width: 640px
+    .header
+        &__nav-list
+            display: none
+        &__nav
+            display: block
+            &-active 
+                display: flex
+                flex-direction: column
+                justify-content: center
+                align-items: center;
+                position: fixed
+                top: 0
+                left: 0
+                width: 100%
+                height: 100%
+                background-color: rgba(0, 0, 0, .85);
+                z-index: 1
+                & li + li
+                    padding-left: 0
+    .nav-list-link 
+        display: block
+        font-size: 25px
+        font-weight: bold
+        padding: 10px
+    // .main__image
+    //     height: 700px
+    // .main-block
+    //     &__title
+    //         font-size: 24px
+    //     &__text
+    //         padding-top: 30px
+    //     &__download
+    //         max-width: 345px
+    //     &__user-form
+    //         max-width: 265px
+    // .form__input
+    //     padding-top: 32px
+    .user-form__header
+        text-align: center
+
+    .main-block
+            padding-top: 140px
+            padding-bottom: 50px
+            flex-direction: column
+            text-align: center
+            &__download
+                max-width: 100%
+            &__logo
+                text-align: center
+            &__button
+                padding-top: 35px
+                padding-bottom: 60px
+            &__title
+                font-size: 20px
+            &__user-form
+                margin: 0 auto
+                width: 400px
+    // .user-form
+    //     min-width: 400px
+    .line
+        margin: 0 auto 
+        margin-top: 25px
+
+    .social-media > .container
+        flex-direction: column
+    .social-media
+        &__title
+            text-align: center
+        &__about
+            max-width: 100%
+        &__icons
+            padding-top: 20px
+    .tabs-block
+        padding-top: 50px
+        padding-bottom: 70px
+        &__image
+            min-height: 0
+            margin-left: 0
+            margin-bottom: 35px
+        &__tabs
+            
+            flex-direction: column
+            &_items
+                display: flex
+                margin: 0 auto
+            &_item
+                padding: 20px 35px
+            &_item + &_item 
+                border-top: none
+                border-left: 1px solid #f5f5f5
+            &_item:first-child
+                border-radius: 3px 0 0 3px
+            &_item:last-child
+                border-radius: 0 3px 3px 0
+        &__text
+            &_items
+                padding-left: 0
+                padding-top: 25px
+
+    .tabs-block .container
+        flex-direction: column-reverse
+        text-align: center
+    .container
+        &__grid
+            flex-direction: column-reverse
+            &_col
+                width: 100%
+        &__image
+            margin-top: 40px
+    .sub-list
+        padding: 70px 0
+        &__image_block
+            margin: 0 auto
+        &__information_text, &__information_title
+            text-align: center
+    .orange_line
+        margin: 0 auto 
+        margin-top: 25px   
+    .picture-block
+        padding: 40px 0 100px 0
+        &__information
+            padding-top: 40px
+            text-align: center
+        &__image_block
+            margin: 0 auto
+    .awesome-block
+        padding: 95px 0
+    .slider_item_icon
+        margin: 0 auto
+    .slider_item_title
+        text-align: center
+    .list_item + .list_item
+        padding-top: 30px
+    .main-title_title, .custom-block__header_text
+        text-align: center
+    .contact-block
+        padding-top: 70px
+    .footer-icons
+        font-size: 26px
+        padding-top: 0
+    .footer__end-text
+        padding-top: 10px
+
+@media ( max-width: 640px )
+    .container
+        max-width: 480px
+    //     padding-top: 140px
+    //     padding-bottom: 50px
+    //     flex-direction: column
+    //     text-align: center
+    //     &__download
+    //         max-width: 100%
+    //     &__logo
+    //         text-align: center
+    //     &__button
+    //         padding-top: 35px
+    //         padding-bottom: 60px
+    //     &__title
+    //         font-size: 20px
+    .main-block__user-form
+        width: 100%            // margin: 0 auto
+    // .line
+    //     margin: 0 auto 
+    //     margin-top: 25px 
+    // .user-form
+    //     min-width: 0
+    // .picture-block__image_block
+    //     padding-left: 0
+    .sub-list
+        &__information
+            padding-left: 0
+        &__image_block
+            min-width: 0
+    // .tabs-block
+    //     &__image
+    //         min-height: 380px
+    .picture-block__image_block
+        min-width: 0
+    .custom-block__header_text
+        text-align: center
+    .footer-icons
+        font-size: 20px
+    .contacts-input
+        width: 100%
+    .contact-block__form
+        flex-wrap: wrap
+    .form__item + .form__item
+        margin-left: 0
+
+@media ( max-width: 480px )
+    .container
+        max-width: 320px
+    .header
+        padding: 10px 0
+        &__nav
+            margin: 0
+    .main-block__logo > img
+        height: 45px
+    .main-block__button
+        padding-bottom: 45px
+    .social-media__icons
+        font-size: 25px 
+    .user-form
+        padding: 0 25px 40px
+    .container
+        &__grid
+            &_col
+                min-width: 0
+    .information_item_block
+        text-align: left
+    // .tabs-block
+    //     &__tabs
+    //         flex-direction: column
+    //         &_items
+    //             display: flex
+    //         &_item + &_item 
+    //             border-top: none
+    //             border-left: 1px solid #f5f5f5
+    //         &_item:first-child
+    //             border-radius: 3px 0 0 3px
+    //         &_item:last-child
+    //             border-radius: 0 3px 3px 0
+        // &__text
+        //     &_items
+        //         padding-left: 0
+        //         padding-top: 20px
+        //         text-align: center
+    // .sub-list
+    //     padding: 80px 0
+    .container__image
+        box-shadow: 0 10px 15px 5px rgba(0, 0, 0, 0.2)
+    // .picture-block
+    //     padding: 40px 0 70px
+        & .container__image
+            margin-top: 0
+    .awesome-block__slider
+        padding-top: 30px
+    .awesome-block, .pricing-block, .testimonials-block, .sub-list, .tabs-block, .picture-block, .contact-block
+        padding: 50px 0
+        text-align: center
+    .main-title_title
+        font-size: 26px 
+    .list_item + .list_item
+        padding-top: 20px   
+    .contact-block__form
+        padding-top: 0
+    .message
+        padding-bottom: 90px
+    .social-media__icons
+        font-size: 18px
+    .pricing-block__slider, .testimonials-block__slider
+        padding-top: 30px
+
+
